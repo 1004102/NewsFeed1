@@ -3,9 +3,7 @@ package com.sparta.newspeed.entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 
-import java.util.List;
-
-public class Board extends TimeStamped {
+public class Profile extends TimeStamped {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
