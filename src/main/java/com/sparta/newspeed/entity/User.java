@@ -16,7 +16,7 @@ public class User extends TimeStamped {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  long id;
+    private Long id;
     //사용자 ID
     @Column(unique = true, nullable = false)
     private String userid;

@@ -3,6 +3,8 @@ package com.sparta.newspeed.entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 
+@Entity
+@Table
 public class Profile extends TimeStamped {
 
     @Id

@@ -26,6 +26,6 @@ public abstract class TimeStamped {
     //상태 변경 시간
     @LastModifiedDate
     @Column
-    @Temporal(TemporalType.TIME)
+    @Temporal(TemporalType.DATE)
     private LocalDate modifiedAt;
 }
